@@ -1,0 +1,261 @@
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: #ffffff;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    background-color: #0F4C75;
+    margin-left: 350px;
+   
+}
+ 
+
+header{ 
+    background-color: #0F4C75;
+    padding: 20px ;
+   
+}
+
+.Nome{
+    background-color: #0F4C75;
+    font-size: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.Frase{
+    background-color: #0F4C75;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    margin: 75px;
+   
+}
+.Menu{
+    background-color: #0F4C75;
+    width:  50%;
+    text-align:right;
+    padding-top: 5px;
+    
+}
+.Menu a{
+  
+    background-color: #0F4C75;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;}
+
+#Titulo{
+    font-size: 15px;
+    color: #0F4C75;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+    
+}
+    .imagem-container {
+        display: flex; /* Define o contêiner como flexbox */
+        justify-content: center;
+        
+    
+      }
+
+      .imagem {
+        width: 200px;
+        height: auto;
+        margin: 10px;
+        margin-right: 300px;
+        margin-top: 20px;
+     
+        
+      }
+      .botao1 {
+        padding: 5px 5px; /* Define o espaçamento interno do botão */
+        font-size: 10px; /* Define o tamanho da fonte do botão */
+        background-color: #e7dbdb; /* Define a cor de fundo do botão */
+        color:#0F4C75; /* Define a cor do texto do botão */
+        border: none; /* Remove a borda do botão */
+        border-radius: 5px; /* Arredonda as bordas do botão */
+        cursor: pointer; /* Altera o cursor para o estilo de clique */
+        margin-left: 70px;
+      
+      }
+      .botao2 {
+        padding: 5px 5px; /* Define o espaçamento interno do botão */
+        font-size: 10px; /* Define o tamanho da fonte do botão */
+        background-color: #e7dbdb; /* Define a cor de fundo do botão */
+        color:#0F4C75; /* Define a cor do texto do botão */
+        border: none; /* Remove a borda do botão */
+        border-radius: 5px; /* Arredonda as bordas do botão */
+        cursor: pointer; /* Altera o cursor para o estilo de clique */
+        margin-left: 440px;
+      
+      }
+      .botao3 {
+        padding: 5px 5px; /* Define o espaçamento interno do botão */
+        font-size: 10px; /* Define o tamanho da fonte do botão */
+        background-color: #e7dbdb; /* Define a cor de fundo do botão */
+        color:#0F4C75; /* Define a cor do texto do botão */
+        border: none; /* Remove a borda do botão */
+        border-radius: 5px; /* Arredonda as bordas do botão */
+        cursor: pointer; /* Altera o cursor para o estilo de clique */
+        margin-left: 450px;
+        
+      }
+
+      .botao4 {
+        padding: 10px 10px; /* Define o espaçamento interno do botão */
+        font-size: 15px; /* Define o tamanho da fonte do botão */
+        background-color: #e7dbdb; /* Define a cor de fundo do botão */
+        color:#0F4C75; /* Define a cor do texto do botão */
+        border: none; /* Remove a borda do botão */
+        border-radius: 5px; /* Arredonda as bordas do botão */
+        cursor: pointer; /* Altera o cursor para o estilo de clique */
+        margin-left:600px;
+        margin-top: 50px;
+        bottom: 50PX;
+    
+      }
+      
+      
+      
+  .container {
+  position: static;
+ 
+  
+}
+.texto {
+  position: absolute;
+  top: 450px; /* Define a posição vertical do texto */
+  left: 350px; /* Define a posição horizontal do texto */
+  transform: translate(-50%, -50%); /* Centraliza o texto */
+  font-size: 15px;
+  text-decoration: none;
+  color: #060606;
+  font-weight: bold;
+  
+}
+
+
+.container2 {
+  position: static;
+ 
+  
+}
+.texto2 {
+  position: absolute;
+  top: 450px; /* Define a posição vertical do texto */
+  left: 870px; /* Define a posição horizontal do texto */
+  transform: translate(-50%, -50%); /* Centraliza o texto */
+  font-size: 15px;
+  text-decoration: none;
+  color: #060606;
+  font-weight: bold;
+ 
+}
+
+
+.container3 {
+  position: static;
+
+}
+.texto3 {
+  position: absolute;
+  top: 450px; /* Define a posição vertical do texto */
+  left: 1340px; /* Define a posição horizontal do texto */
+  transform: translate(-50%, -50%); /* Centraliza o texto */
+  font-size: 15px;
+  text-decoration: none;
+  color: #060606;
+  font-weight: bold;
+ 
+}
+
+
+.imagens{
+  width: 350px;
+  height: auto;
+  margin: 10px;
+  margin-right: 400px;
+  border-radius: 20px;
+  margin-top: 30px;
+  }
+
+#imagens {
+  
+  width: 350px;
+  height: auto;
+  margin: 10px;
+  margin-right: 400px;
+  border-radius: 20px;
+  margin-top: 10px;
+  
+}
+
+#Aventura{
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 60px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #0F4C75;
+  font-weight: lighter;
+  text-align: start;
+  
+}
+
+
+#Festivais{
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 290px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #0F4C75;
+  font-weight: lighter;
+  text-align: start;
+  
+}
+
+#Praias{
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 540px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #0F4C75;
+  font-weight: lighter;
+  text-align:start;
+  
+}
+
+#avião{
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 750px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #0F4C75;
+  font-weight: lighter;
+  text-align: start;
+  
+}
+
+.rodape {
+  background-color: #0F4C75;
+  padding: 100px;
+  text-align:left;
+  line-height: 30px;
+  
+  
+}
+
+
