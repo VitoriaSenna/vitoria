@@ -4,45 +4,40 @@
  background-color: #ffffff;
  font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
+ 
+ 
 .center{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2%;
     background-color: #0F4C75;
     margin-left: 350px;
-   
+
 }
  
 
 header{ 
     background-color: #0F4C75;
-    padding: 20px ;
-   
+     
+    
 }
 
 .Nome{
     background-color: #0F4C75;
-    font-size: 60px;
+    font-size: 290%;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     
 }
 
-.Frase{
-    background-color: #0F4C75;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    font-weight:bold;
-    margin: 75px;
    
-}
+
 .Menu{
     background-color: #0F4C75;
-    width:  50%;
+    width:  70%;
     text-align:right;
-    padding-top: 5px;
+    padding-top: 15%;
     
 }
 .Menu a{
@@ -51,7 +46,8 @@ header{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    margin-right: 15px;}
+    margin-right: 10px;
+  margin-left: 1px;}
 
 #Titulo{
     font-size: 15px;
@@ -64,67 +60,39 @@ header{
     .imagem-container {
         display: flex; /* Define o contêiner como flexbox */
         justify-content: center;
-       
         
     
       }
 
       .imagem {
-        width: 200px;
+        width: 12%;
         height: auto;
         margin: 10px;
         margin-right: 300px;
         margin-top: 20px;
+        object-fit: cover;
      
         
       }
-      .botao1 {
-        padding: 5px 5px; /* Define o espaçamento interno do botão */
-        font-size: 10px; /* Define o tamanho da fonte do botão */
-        background-color: #e7dbdb; /* Define a cor de fundo do botão */
-        color:#0F4C75; /* Define a cor do texto do botão */
-        border: none; /* Remove a borda do botão */
-        border-radius: 5px; /* Arredonda as bordas do botão */
-        cursor: pointer; /* Altera o cursor para o estilo de clique */
-        margin-left: 70px;
       
-      }
-      .botao2 {
-        padding: 5px 5px; /* Define o espaçamento interno do botão */
-        font-size: 10px; /* Define o tamanho da fonte do botão */
-        background-color: #e7dbdb; /* Define a cor de fundo do botão */
-        color:#0F4C75; /* Define a cor do texto do botão */
-        border: none; /* Remove a borda do botão */
-        border-radius: 5px; /* Arredonda as bordas do botão */
-        cursor: pointer; /* Altera o cursor para o estilo de clique */
-        margin-left: 440px;
-      
-      }
-      .botao3 {
-        padding: 5px 5px; /* Define o espaçamento interno do botão */
-        font-size: 10px; /* Define o tamanho da fonte do botão */
-        background-color: #e7dbdb; /* Define a cor de fundo do botão */
-        color:#0F4C75; /* Define a cor do texto do botão */
-        border: none; /* Remove a borda do botão */
-        border-radius: 5px; /* Arredonda as bordas do botão */
-        cursor: pointer; /* Altera o cursor para o estilo de clique */
-        margin-left: 450px;
-        
-      }
 
       .botao4 {
-        padding: 10px 10px; /* Define o espaçamento interno do botão */
-        font-size: 15px; /* Define o tamanho da fonte do botão */
-        background-color: #e7dbdb; /* Define a cor de fundo do botão */
-        color:#0F4C75; /* Define a cor do texto do botão */
-        border: none; /* Remove a borda do botão */
-        border-radius: 5px; /* Arredonda as bordas do botão */
-        cursor: pointer; /* Altera o cursor para o estilo de clique */
+        padding: 10px 10px; 
+        font-size: 15px; 
+        background-color: #e7dbdb; 
+        color:#0F4C75; 
+        border: none; 
+        border-radius: 5px;
+        cursor: pointer;
         margin-left:600px;
         margin-top: 50px;
         bottom: 50PX;
+       
     
       }
+
+
+      
       
       
       
@@ -135,13 +103,14 @@ header{
 }
 .texto {
   position: absolute;
-  top: 450px; /* Define a posição vertical do texto */
-  left: 350px; /* Define a posição horizontal do texto */
-  transform: translate(-50%, -50%); /* Centraliza o texto */
+  top: 55%; 
+  left: 23%; 
+  transform: translate(-50%, -50%);
   font-size: 15px;
   text-decoration: none;
   color: #060606;
   font-weight: bold;
+  display: block;
   
 }
 
@@ -153,13 +122,14 @@ header{
 }
 .texto2 {
   position: absolute;
-  top: 450px; /* Define a posição vertical do texto */
-  left: 870px; /* Define a posição horizontal do texto */
-  transform: translate(-50%, -50%); /* Centraliza o texto */
+  top: 55%; 
+  left: 56%; 
+  transform: translate(-50%, -50%); 
   font-size: 15px;
   text-decoration: none;
   color: #060606;
   font-weight: bold;
+  display: block;
  
 }
 
@@ -170,15 +140,19 @@ header{
 }
 .texto3 {
   position: absolute;
-  top: 450px; /* Define a posição vertical do texto */
-  left: 1340px; /* Define a posição horizontal do texto */
-  transform: translate(-50%, -50%); /* Centraliza o texto */
+  top: 55%; 
+  left: 87%; 
+  transform: translate(-50%, -50%); 
   font-size: 15px;
   text-decoration: none;
   color: #060606;
   font-weight: bold;
+  display: block;
  
 }
+
+
+
 
 
 .imagens{
@@ -204,7 +178,7 @@ header{
 #Aventura{
   position: absolute;
   margin-left: 390px;
-  margin-top: 60px;
+  margin-top: 30px;
   font-size: 15px;
   text-decoration: none;
   color: #0F4C75;
@@ -212,12 +186,12 @@ header{
   text-align: start;
   
 }
-
+ 
 
 #Festivais{
   position: absolute;
   margin-left: 390px;
-  margin-top: 290px;
+  margin-top: 250px;
   font-size: 15px;
   text-decoration: none;
   color: #0F4C75;
@@ -229,7 +203,7 @@ header{
 #Praias{
   position: absolute;
   margin-left: 390px;
-  margin-top: 540px;
+  margin-top: 500px;
   font-size: 15px;
   text-decoration: none;
   color: #0F4C75;
@@ -257,6 +231,178 @@ header{
   line-height: 30px;
   
   
+}
+
+.imagem-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagens{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .imagens {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .imagens {
+    max-height: 200px; 
+  }
+}
+
+
+
+.container, .container2, .container3 {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .container, .container2, .container3 {
+    display: none;
+  }
+}
+
+
+ .botao4{
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+ .botao4 {
+    display: none;
+  }
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Nome, .Frase{
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .Nome {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Frase {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .center {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+.imagens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; /
+}
+
+.imagens {
+  grid-column: 1; 
+}
+
+
+
+#Festivais{
+  /* Estilos do texto */
+}
+ 
+@media screen and (max-width: 767px) {
+  #Festivais {
+    display: none; /* Remove os textos em dispositivos móveis */
+  }
+}
+
+
+
+#Praias {
+  /* Estilos do texto */
+}
+
+@media screen and (max-width: 767px) {
+  #Praias {
+    display: none; /* Remove os textos em dispositivos móveis */
+  }
+}
+
+
+#avião{
+  /* Estilos do texto */
+}
+
+@media screen and (max-width: 767px) {
+  #avião {
+    display: none; /* Remove os textos em dispositivos móveis */
+  }
+}
+
+
+#Aventura{
+  /* Estilos do texto */
+}
+
+@media screen and (max-width: 767px) {
+  #Aventura {
+    display: none; /* Remove os textos em dispositivos móveis */
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer {
+    height: 50px;
+    padding: 5px;
+  }
 }
 
 

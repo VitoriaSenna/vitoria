@@ -114,42 +114,9 @@
     margin-right: 10px;
   
    }
-   #info{
-    font-size: 13px;
-    color: #050505;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 30px;
-    margin-top: 10px;
-    margin-left: 200px;
-    line-height: 30px;
-    background-color: antiquewhite;
+  
 
-   }
-   #info2{
-    font-size: 13px;
-    color: #050505;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 30px;
-    margin-top: -480px;
-    margin-left: 200px;
-    line-height: 30px;
-    background-color: antiquewhite;
-
-   }
-   #info3{
-    font-size: 13px;
-    color: #050505;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 30px;
-    margin-top: -430px;
-    margin-left: 200px;
-    line-height: 30px;
-    background-color: antiquewhite;
-
-   }
+   
    footer {
     background-color: #0F4C75;
     padding: 100px;
